@@ -1,7 +1,7 @@
-import PostDetails from '@/app/component/postDetails';
+import PostDetails from './../../component/PostDetails';
 import React, { Suspense } from 'react'
 
-async function pageDetails({params}) {
+async function pageDetails({...params}) {
 
   const loadJSX = (
     <div>
